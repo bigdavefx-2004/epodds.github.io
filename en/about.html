@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .about-container {
+      background: white;
+      max-width: 800px;
+      width: 100%;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #667eea;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #667eea;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .about-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-container">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+
+    <h1>Your Name</h1>
+
+    <p>
+      Hello! I'm a passionate developer who enjoys building clean, responsive,
+      and user-friendly web applications. I love learning new technologies
+      and improving my skills every day.
+    </p>
+
+    <p>
+      When I'm not coding, I enjoy reading, exploring new tools, and working
+      on creative projects.
+    </p>
+
+    <div class="skills">
+      <h3>Skills</h3>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Git</span>
+      <span>GitHub</span>
+    </div>
+  </div>
+
+</body>
+</html>
