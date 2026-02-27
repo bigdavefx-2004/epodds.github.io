@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-container {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #4facfe;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #00c6ff;
+    }
+
+    .social-links {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #4facfe;
+      margin: 0 8px;
+      font-size: 14px;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social-links">
+      <p>Or connect with me:</p>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+
+</body>
+</html>
